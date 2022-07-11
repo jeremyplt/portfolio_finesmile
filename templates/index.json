@@ -52,21 +52,21 @@
         "1657528207166ee410-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Brighter teeth in 30 seconds.",
             "heading_size": "h1"
           }
         },
         "1657528207166ee410-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Convenient whitening + colour correcting technology for a whiter, brighter smile.<\/p>",
             "text_style": "body"
           }
         },
         "1657528207166ee410-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Shop Now",
             "button_link": ""
           }
         }
@@ -96,21 +96,21 @@
         "1657528311bd17f29d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "finesmile research.",
             "heading_size": "h1"
           }
         },
         "1657528311bd17f29d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Our research, formulation, and product testing is conducted in-house at our Australian headquarters, through our very own Hismile Research Centre.<\/p>",
             "text_style": "body"
           }
         },
         "1657528311bd17f29d-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Shop Now",
             "button_link": ""
           }
         }
