@@ -90,24 +90,24 @@
         "padding_bottom": 36
       }
     },
-    "1657570144c75b48b9": {
+    "1657528311ee447639": {
       "type": "image-with-text",
       "blocks": {
-        "16575701449974bd96-0": {
+        "1657528311bd17f29d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Give your smile some shine!",
-            "heading_size": "h0"
+            "heading": "finesmile research.",
+            "heading_size": "h1"
           }
         },
-        "16575701449974bd96-1": {
+        "1657528311bd17f29d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Stop being shy when smiling. Thank to finesmile, you can be confident again!<\/p>",
+            "text": "<p>Our research, formulation, and product testing is conducted in-house at our Australian headquarters, through our very own Hismile Research Centre.<\/p>",
             "text_style": "body"
           }
         },
-        "16575701449974bd96-2": {
+        "1657528311bd17f29d-2": {
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
@@ -116,22 +116,22 @@
         }
       },
       "block_order": [
-        "16575701449974bd96-0",
-        "16575701449974bd96-1",
-        "16575701449974bd96-2"
+        "1657528311bd17f29d-0",
+        "1657528311bd17f29d-1",
+        "1657528311bd17f29d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/118647019_gettyimages-475063916.jpg",
+        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.gif",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "1657528582e845aefa": {
@@ -179,6 +179,50 @@
         "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1657570144c75b48b9": {
+      "type": "image-with-text",
+      "blocks": {
+        "16575701449974bd96-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Give your smile some shine!",
+            "heading_size": "h0"
+          }
+        },
+        "16575701449974bd96-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stop being shy when smiling. Thank to finesmile, you can be confident again!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16575701449974bd96-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16575701449974bd96-0",
+        "16575701449974bd96-1",
+        "16575701449974bd96-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/118647019_gettyimages-475063916.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -236,58 +280,14 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "1657528311ee447639": {
-      "type": "image-with-text",
-      "blocks": {
-        "1657528311bd17f29d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "finesmile research.",
-            "heading_size": "h1"
-          }
-        },
-        "1657528311bd17f29d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our research, formulation, and product testing is conducted in-house at our Australian headquarters, through our very own Hismile Research Centre.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "1657528311bd17f29d-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1657528311bd17f29d-0",
-        "1657528311bd17f29d-1",
-        "1657528311bd17f29d-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.gif",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
     "16575282071613a4c0",
-    "1657570144c75b48b9",
+    "1657528311ee447639",
     "1657528582e845aefa",
-    "1657541124732affea",
-    "1657528311ee447639"
+    "1657570144c75b48b9",
+    "1657541124732affea"
   ]
 }
