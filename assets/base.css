@@ -1344,14 +1344,26 @@ deferred-media {
 }
 
 .custom-primary-btn, .shopify-challenge__button {
-  background-color: var(--color-secondary) !important;
-  font-family: var(--font-body) !important;
-  text-transform: uppercase;
-  font-weight: bold !important;
-  border-radius: 50px !important;
-  color: var(--color-text-primary) !important;
-  line-height: normal !important;
-  letter-spacing: 0 !important;
+  width: max-content;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Circular,Helvetica Neue,Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+  border-radius: 50px;
+  padding: 0 50px;
+  cursor: pointer;
+  border: none;
+  outline: 0;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color .2s ease-in-out,color .2s ease-in-out,box-shadow .2s ease-in-out,border .2s ease-in-out,transform .2s ease-in-out;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
   font-size: 16px !important;
 }
 
@@ -2400,7 +2412,7 @@ input[type='checkbox'] {
 }
 
 .header:hover, .sticky {
-  background-color: var(--color-primary);
+  background-color: white;
 }
 
 .header:hover .header__menu-item, .header:hover .header__icon, .sticky .header__menu-item, .sticky  .header__icon {
@@ -2554,24 +2566,6 @@ input[type='checkbox'] {
   position: relative;
 }
 
-.link-title:after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: -5px;
-  width: 60%;
-  height: 2px;
-  background-color: transparent;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  z-index:4;
-}
-
-.header__menu-item:hover .link-title:after, .link-list-hover .link-title:after {
-  background-color: black;
-}
 
 .link-list-hover {
   font-weight: bold;
@@ -2588,6 +2582,7 @@ input[type='checkbox'] {
 .header__icons {
   display: flex;
   grid-area: icons;
+  cursor: pointer;
   justify-self: end;
   height: 100%;
 }
@@ -2616,6 +2611,16 @@ input[type='checkbox'] {
 .modal__close-button:hover .icon {
   transform: scale(1.07);
 }
+
+.icon-cart {
+  color:white;
+}
+
+.sticky .icon-cart, .header:hover .icon-cart {
+  color:black;
+}
+
+
 
 .header__icon .icon {
   height: 2rem;

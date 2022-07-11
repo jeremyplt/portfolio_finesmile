@@ -43,7 +43,7 @@
   }
 
   .list-menu__item {
-    text-transform: uppercase;
+    color: white;
     font-size: 16px;
     align-items: center;
     line-height: calc(1 + 0.3 / var(--font-body-scale));
@@ -403,101 +403,11 @@ margin-bottom: {{section.settings.margin_bottom}}px;
     {%- endif -%}
 
     <!-- cart-drawer-menu -->
-    <details id="cart-drawer-details">
-      <summary aria-haspopup="dialog" class="summary header__icon header__icon--cart link focus-inset"
-        id="cart-icon-bubble">
-        {% render 'icon-cart' %}
-        <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
-        {%- if cart != empty -%}
-        <div class="cart-count-bubble">
-          {%- if cart.item_count < 100 -%} <span aria-hidden="true" id="cart-item-count">{{ cart.item_count }}</span>
-            {%- endif -%}
-            <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
-        </div>
-        {%- endif -%}
-      </summary>
-      <!-- TODO:: -->
-      <div class="cart-drawer-container" {%- if cart.item_count==0 -%} style="padding-top:20px" {%- endif -%}>
-        {%- if cart.item_count != 0 -%}
-        <div class="not-empty-cart">
-          <div class="drawer-title">
-            <h3>CART</h3>
-          </div>
-          {%- for item in cart.items -%}
-          <div class="item-container" id="item-{{ item.id }}">
-            <div class="card-image">
-              <a href="{{ item.url }}">
-                <img src="{{ item.image | img_url: '400x' }}" alt="{{ item.image.alt | escape }}" loading="lazy"
-                  width="350">
-              </a>
-            </div>
-            <div class="item-details">
-              <div class="title-price">
-                <a class="full-unstyled-link" href="{{ item.url }}">
-                  <div class="cart-product-title">{{ item.product.title }}</div>
-                </a>
-                {%- unless item.variant.title == "Default Title" -%}
-                <div class="color-variant">
-                  <span class="color-label">Color:</span>
-                  <span class="product-color" product-title="{{ item.variant.title }}">{{ item.variant.title }}</span>
-                </div>
-                {%- endunless -%}
-                <div class="item-price">
-                  {%- if item.product.compare_at_price != item.product.price -%}
-                  <div class="cart-item__discounted-prices">
-                    <strong class="cart-item__final-price product-option">
-                      {{ item.product.price | money }}
-                    </strong>
-                    <s class="cart-item__old-price product-option">
-                      {{- item.product.compare_at_price | money -}}
-                    </s>
-                  </div>
-                  {%- else -%}
-                  <div class="cart-item__discounted-prices">
-                    <strong class="cart-item__final-price product-option">
-                      {{ item.product.price | money }}
-                    </strong>
-                  </div>
-                  {%- endif -%}
-                </div>
-              </div>
-              <div class="item-quantity-selector">
-                <div class="cart-item__quantity-wrapper">
-                  <div class="quantity">
-                    <button item-id="{{ item.id }}" item-quantity="{{ item.quantity }}"
-                      class="quantity__button no-js-hidden" name="minus" type="button">
-                      {% render 'icon-minus' %}
-                    </button>
-                    <input class="quantity__input" type="number" name="updates[]" item-id="{{ item.id }}"
-                      value="{{ item.quantity }}" min="0" readonly>
-                    <button item-id="{{ item.id }}" item-quantity="{{ item.quantity }}"
-                      class="quantity__button no-js-hidden" name="plus" type="button">
-                      {% render 'icon-plus' %}
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {%- endfor -%}
-          <div class="cart-total-amount">
-            <div class="total-text">TOTAL:</div>
-            <div id="cart-total-price">{{ cart.total_price | money }}</div>
-          </div>
-          <form action="{{ routes.cart_url }}" method="post" id="cart-notification-form">
-            <button class="button custom-primary-btn" name="checkout">
-              <span class="btn-label">CHECKOUT</span>
-            </button>
-          </form>
-        </div>
-        {%- else -%}
-        <div class="empty-cart-text">
-          Your cart is empty.
-        </div>
-        {%- endif -%}
+    <div id="cart-drawer-details">
+      <div class="header__icon header__icon--cart link focus-inset"><a href="/cart">{% render 'icon-cart' %}</a>
       </div>
-    </details>
-  </div>
+
+    </div>
 </header>
 
 <script type="application/ld+json"></script>
