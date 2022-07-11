@@ -148,11 +148,20 @@
               "heading": "Info",
               "menu": "footer"
             }
+          },
+          "27ed1cb2-d70b-4931-a10e-b28ce55a2cee": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/logo_fine_smile_cf04bdd6-63b9-40c7-9cef-a6d4c55a9a75.png",
+              "image_width": 100,
+              "alignment": "center"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "27ed1cb2-d70b-4931-a10e-b28ce55a2cee"
         ],
         "settings": {
           "color_scheme": "background-1",
