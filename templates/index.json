@@ -212,8 +212,15 @@
         "165754112480de6ab8-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "the healthiest and fastest",
             "heading_size": "medium"
+          }
+        },
+        "13869a67-6a41-47ef-bf2a-36413cdb8928": {
+          "type": "text",
+          "settings": {
+            "text": "solution.",
+            "text_style": "body"
           }
         },
         "165754112480de6ab8-2": {
@@ -230,10 +237,11 @@
       },
       "block_order": [
         "165754112480de6ab8-0",
+        "13869a67-6a41-47ef-bf2a-36413cdb8928",
         "165754112480de6ab8-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Product_paint.jpg",
+        "image": "shopify:\/\/shop_images\/Product_paint.png",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-right",
         "show_text_box": false,
