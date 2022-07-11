@@ -411,7 +411,7 @@
 }
 
 .banner__box .banner__heading + * {
-  margin-top: 1rem;
+  margin-top: 0rem;
 }
 
 .banner__buttons {
@@ -458,4 +458,10 @@
 
 .banner__box > * + .banner__buttons {
   margin-top: 4rem;
+}
+
+.medium-banner-title {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(223, 223, 223);
 }
