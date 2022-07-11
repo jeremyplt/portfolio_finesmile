@@ -57,7 +57,7 @@
   }
 
   .featured-product:not(.product--no-media) > .product__info-wrapper {
-    padding: 0 7rem;
+    padding: 4rem 5rem 0rem 5rem;
   }
 
   .background-secondary .featured-product {
@@ -65,4 +65,27 @@
     position: relative;
     z-index: 1;
   }
+}
+
+.product__info-wrapper .product__title {
+  line-height: 4rem;
+}
+
+.description-wrapper {
+  background-color: #f9f9f9;
+  padding: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #636366;
+}
+
+.description-title {
+  font-size: 16px;
+  font-weight: bold;
+  color:black;
+}
+
+.description-text{
+  margin: 10px 0 15px 0;
 }

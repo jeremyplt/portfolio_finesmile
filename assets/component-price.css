@@ -20,6 +20,7 @@
 
 .price .price-item {
   margin: 0 1rem 0 0;
+  color: #f55138;
 }
 
 .price__regular .price-item--regular {
@@ -71,6 +72,11 @@
   display: initial;
   flex-direction: row;
   flex-wrap: wrap;
+  letter-spacing: 0;
+}
+
+.price-item--sale {
+  font-weight: bold;
 }
 
 .price--center {

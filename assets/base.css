@@ -1365,6 +1365,14 @@ deferred-media {
   background-color: black;
   color: white;
   font-size: 16px !important;
+  border: solid 2px transparent;
+
+}
+
+.image-with-text__text-item .custom-primary-btn:hover {
+  background-color: white;
+  color: black;
+  border: solid 2px black;
 }
 
 @media screen and (max-width: 749px) {
@@ -2132,7 +2140,7 @@ input[type='checkbox'] {
 }
 
 .product-form__quantity .quantity__button svg {
-  width: 2rem;
+  width: 1.3rem;
 }
 
 .product-form__quantity .quantity__input {
@@ -3476,17 +3484,16 @@ details[open] > .cart-drawer-container {
 }
 
 .badge {
-  border: 1px solid transparent;
   border-radius: var(--badge-corner-radius);
   display: inline-block;
   font-size: 1.2rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0rem;
   line-height: 1;
   padding: 0.6rem 1.3rem;
   text-align: center;
-  background-color: rgb(var(--color-badge-background));
+  background-color: #e7e7e7;
   border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
-  color: rgb(var(--color-foreground));
+  color: black;
   word-break: break-word;
 }
 
@@ -3693,4 +3700,8 @@ body.blocked-scroll {
       letter-spacing: -1px;
     }
   }
+}
+
+.blue-btn {
+  background-color: #007aff;
 }

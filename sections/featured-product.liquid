@@ -5,20 +5,6 @@
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
-
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
 {%- assign product = section.settings.product -%}
@@ -31,7 +17,7 @@
 {%- endif -%}
 
 <section class="color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
-  <div class="page-width section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
+  <div class="section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
     <div class="featured-product product grid grid--1-col gradient color-{{ section.settings.color_scheme }}{% if section.settings.secondary_background == false %} isolate{% endif %} {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
         <media-gallery id="MediaGallery-{{ section.id }}" role="region" aria-label="{{ 'products.product.media.gallery_viewer' | t }}" data-desktop-layout="stacked">
@@ -75,7 +61,7 @@
           {%- endif -%}
         </media-gallery>
       </div>
-      <div class="product__info-wrapper grid__item">
+      <div class="product__info-wrapper grid__item" id="featured-product">
         <div id="ProductInfo-{{ section.id }}" class="product__info-container">
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
@@ -99,16 +85,6 @@
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
               </div>
-              {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
-                <div class="product__tax caption rte">
-                  {%- if shop.taxes_included -%}
-                    {{ 'products.product.include_taxes' | t }}
-                  {%- endif -%}
-                  {%- if shop.shipping_policy.body != blank -%}
-                    {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                  {%- endif -%}
-                </div>
-              {%- endif -%}
               {%- if product != blank -%}
                 <div {{ block.shopify_attributes }}>
                   {%- form 'product', product -%}
@@ -119,9 +95,6 @@
               {%- endif -%}
             {%- when 'quantity_selector' -%}
               <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
-                <label class="form__label" for="Quantity-{{ section.id }}">
-                  {{ 'products.product.quantity.label' | t }}
-                </label>
                 <quantity-input class="quantity">
                   <button class="quantity__button no-js-hidden" name="minus" type="button">
                     <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
@@ -141,6 +114,26 @@
                   </button>
                 </quantity-input>
               </div>
+
+              <div class="description-wrapper">
+                <div class="description-title">We’ve cancelled stains.</div>
+                <div class="description-text">V34 works to brighten teeth by utilising colour correcting technology. By counter-balancing the different hues in your teeth, V34 conceals stains and improves brightness.</div>
+                <div class="bullet-point-list">
+                  <ul>
+                    <li>Utilises colour correcting technology</li>
+                    <li>Non-invasive brightening treatment</li>
+                    <li>Highest concentration of V34 in our range</li>
+                  </ul>
+                </div>
+                <div class="description-title">How does V34 work?</div>
+                <div class="description-text">Purple is directly opposite yellow on the colour wheel and is therefore its complementary colour, so a water-soluble purple dye is applied to your teeth to cancel out any yellow undertones.
+                </div>
+                <div class="description-title">What’s included?</div>
+                <div class="description-text">1x V34 Colour Corrector Serum. Total Net Contents: 30ml | 1 fl oz
+                </div>
+
+              </div>
+              
             {%- when 'share' -%}
               <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
               <share-button id="Share-{{ section.id }}" class="share-button" {{ block.shopify_attributes }}>
@@ -274,7 +267,7 @@
                         <button
                           type="submit"
                           name="add"
-                          class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
+                          class="blue-btn custom-primary-btn product-form__submit button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
                           {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
                         >
                             <span>
@@ -337,10 +330,6 @@
               {%- endif -%}
             {%- endcase -%}
           {%- endfor -%}
-        <a{% if product == blank %} role="link" aria-disabled="true"{% else %} href="{{ product.url }}"{% endif %} class="link product__view-details animate-arrow">
-          {{ 'products.product.view_full_details' | t }}
-          {% render 'icon-arrow' %}
-        </a>
         </div>
       </div>
     </div>

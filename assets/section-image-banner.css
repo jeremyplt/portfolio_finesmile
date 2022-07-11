@@ -16,7 +16,7 @@
 }
 
 .banner__text {
-  color: #f3e398;
+  color: #ffe153;
 }
 
 @media only screen and (max-width: 749px) {
@@ -256,7 +256,7 @@
 
 @media screen and (min-width: 750px) {
   .banner__content {
-    padding: 2rem;
+    padding: 4rem;
   }
 
   .banner__content--top-left {
