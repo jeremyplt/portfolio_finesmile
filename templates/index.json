@@ -206,14 +206,42 @@
         "padding_bottom": 36
       }
     },
-    "16575285933f06c3c7": {
-      "type": "custom-image-with-text",
+    "1657541124732affea": {
+      "type": "image-banner",
+      "blocks": {
+        "165754112480de6ab8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "165754112480de6ab8-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165754112480de6ab8-0",
+        "165754112480de6ab8-2"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Product_paint.jpg",
-        "title": "",
-        "text": "",
-        "button_label": "Shop Performer Now",
-        "button_link": ""
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "right",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -222,6 +250,6 @@
     "16575282071613a4c0",
     "1657528311ee447639",
     "1657528582e845aefa",
-    "16575285933f06c3c7"
+    "1657541124732affea"
   ]
 }
