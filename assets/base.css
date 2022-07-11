@@ -2911,7 +2911,7 @@ details[open] > .drop-down-menu-grid {
 }
 
 .header__menu-item:hover span {
-  font-weight: bold;
+  color: #45049c;
 }
 
 details[open] > .header__menu-item {
