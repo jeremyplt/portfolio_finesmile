@@ -313,12 +313,15 @@
 .image-with-text__heading {
   word-break: break-word;
   margin-bottom: 0;
+  letter-spacing: -.1rem;
 }
 
 .image-with-text__text p {
   word-break: break-word;
   margin-top: 0;
   margin-bottom: 1rem;
+  letter-spacing: 0rem;
+
 }
 
 /* check for flexbox gap in older Safari versions */
