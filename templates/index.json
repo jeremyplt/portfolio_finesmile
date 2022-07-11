@@ -223,6 +223,13 @@
             "text_style": "body"
           }
         },
+        "6c004a95-b831-4a90-bff3-24b8535a6951": {
+          "type": "heading",
+          "settings": {
+            "heading": "Made with natural ingredient and tested in laboratory.",
+            "heading_size": "medium"
+          }
+        },
         "165754112480de6ab8-2": {
           "type": "buttons",
           "settings": {
@@ -238,6 +245,7 @@
       "block_order": [
         "165754112480de6ab8-0",
         "13869a67-6a41-47ef-bf2a-36413cdb8928",
+        "6c004a95-b831-4a90-bff3-24b8535a6951",
         "165754112480de6ab8-2"
       ],
       "settings": {
