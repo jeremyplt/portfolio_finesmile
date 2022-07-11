@@ -20,7 +20,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop Now",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/home_banner.png",
+        "image": "shopify:\/\/shop_images\/home_banner_without_text.png",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
