@@ -330,8 +330,10 @@ margin-bottom: {{section.settings.margin_bottom}}px;
 
   <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
     {%- assign image_size = section.settings.logo_width | append: 'x' -%}
-    <img class="header__heading-logo no-hover-logo" src="{{ section.settings.logo_no_hover }}" alt="logo no hover">
-    <img class="header__heading-logo hover-logo" src="{{ section.settings.logo_hover }}" alt="logo hover">
+    <img class="header__heading-logo no-hover-logo" src="{{ section.settings.logo_no_hover | img_url: '550x' }}"
+      alt="logo no hover">
+    <img class="header__heading-logo hover-logo" src="{{ section.settings.logo_hover | img_url: '550x' }}"
+      alt="logo hover">
   </a>
 
   {%- if section.settings.menu != blank -%}
@@ -518,7 +520,7 @@ margin-bottom: {{section.settings.margin_bottom}}px;
 },
 {
 "type": "image_picker",
-"label": "Logo no hover",
+"label": "logo no hover",
 "id": "logo_no_hover"
 },
 {
