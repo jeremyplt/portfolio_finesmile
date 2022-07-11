@@ -1,0 +1,47 @@
+{% assign settings = section.settings %}
+{% render 'cit-image', settings: settings %}
+
+{% schema %}
+{
+"name":"Custom Image with Text",
+"class":"section",
+"settings":[
+{
+"type":"image_picker",
+"id":"image",
+"label":"Image"
+},
+{
+"type":"image_picker",
+"id":"image_mobile",
+"label":"Mobile Image"
+},
+{
+"type":"richtext",
+"id":"title",
+"label":"Title"
+},
+{
+"type":"richtext",
+"id":"text",
+"label":"Text"
+},
+{
+"type": "text",
+"id": "button_label",
+"label": "Button Label",
+"default": "Shop Performer Now"
+},
+{
+"type": "url",
+"id": "button_link",
+"label": "Button Link"
+}
+],
+"presets":[
+{
+"name":"Custom Image with Text"
+}
+]
+}
+{% endschema %}

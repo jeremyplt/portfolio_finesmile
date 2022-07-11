@@ -1,0 +1,158 @@
+.custom-image-text {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cit-image {
+    max-width: 85%;
+    left: 0;
+}
+
+.cit-image-mobile {
+    display: none;
+}
+
+.cit-image-mobile img {
+    max-width: 100%;
+}
+
+.cit-mobile-overlay {
+    display: block !important;
+    background: linear-gradient(to top, transparent 70%, var(--color-background-primary));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.cit-overlay {
+    display: block !important;
+    background: linear-gradient(to right, transparent 70%, var(--color-background-primary));
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.cit-title h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 4.8rem;
+    line-height: 5.4rem;
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: var(--color-text-primary);
+}
+
+.cit-title p {
+    margin: 0 !important;
+}
+
+.cit-image img {
+    max-width: 100%;
+}
+
+.cit-text-container {
+    position: absolute;
+    width: 50%;
+    right: 80px;
+    max-width: 550px;
+    text-align: right;
+    z-index: 1;
+}
+
+.cit-text {
+    font-family: var(--font-body);
+    font-size: 20px;
+}
+
+.mobile-button {
+    display: none;
+}
+
+@media screen and (max-width: 949px) {
+    .cit-title h2{
+        font-size: 3.4rem !important;
+        line-height: 4rem !important;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .cit-title h2{
+        font-size: 2.8rem !important;
+        line-height: 3.4rem !important;
+    }
+
+    .cit-text {
+        font-size: 1.8rem !important;
+        line-height: 2.2rem !important;
+    }
+}
+
+@media screen and (max-width: 549px) {
+
+    .custom-image-text {
+        margin-bottom: 0px;
+    }
+
+    .cit-image {
+        max-width: 100%;
+    }
+
+    .cit-overlay {
+        display:none !important;
+    }
+
+    .custom-image-text {
+        flex-direction: column;
+    }
+
+    .cit-image-mobile {
+        display: block;
+    }
+    
+    .mobile-button {
+        margin-top: 10px;
+        display: flex;
+        font-size: 1.4rem !important;
+    }
+
+    .cit-image, .desktop-button {
+        display: none;
+    }
+
+    .cit-text-container {
+        width: 90%;
+        position: absolute;
+        top: 0;
+        margin: 0;
+        margin-top: 35px;
+        width: 100%;
+        right: 0px;
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    .cit-title h2{
+        font-size: 3.8rem !important;
+        line-height: 3.6rem !important;
+    }
+
+    .cit-text p {
+        font-size: 2rem !important;
+        margin-top: 10px !important;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .cit-title h2 {
+        font-size: 2.6rem !important;
+        line-height: 2.4rem !important;
+    }
+    .cit-text p {
+        font-size: 1.8rem !important;
+        line-height: 2rem;
+    }
+}
