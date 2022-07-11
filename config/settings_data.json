@@ -153,7 +153,7 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/logo_fine_smile_cf04bdd6-63b9-40c7-9cef-a6d4c55a9a75.png",
-              "image_width": 100,
+              "image_width": 200,
               "alignment": "center"
             }
           }
