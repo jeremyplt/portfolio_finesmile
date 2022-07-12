@@ -292,6 +292,49 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "1657633198b4f27181": {
+      "type": "icon-reassurance",
+      "blocks": {
+        "af2bcae7-2ec3-4521-8a5f-9754c4c2b1e4": {
+          "type": "icon",
+          "settings": {
+            "title": "Tested in Laboratory",
+            "description": ""
+          }
+        },
+        "cd3cbedd-8dcc-4b8b-b7be-298eb97e3f1c": {
+          "type": "icon",
+          "settings": {
+            "title": "Free Delivery",
+            "description": ""
+          }
+        },
+        "7784ce29-8326-4d82-b3ae-3df1f46e2d6c": {
+          "type": "icon",
+          "settings": {
+            "title": "Guarantee",
+            "description": ""
+          }
+        },
+        "c248b9d5-1018-4bed-914d-96a54bfe5e60": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/flask_1.png",
+            "title": "Best Quality",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "af2bcae7-2ec3-4521-8a5f-9754c4c2b1e4",
+        "cd3cbedd-8dcc-4b8b-b7be-298eb97e3f1c",
+        "7784ce29-8326-4d82-b3ae-3df1f46e2d6c",
+        "c248b9d5-1018-4bed-914d-96a54bfe5e60"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
@@ -300,6 +343,7 @@
     "1657528311ee447639",
     "1657528582e845aefa",
     "1657570144c75b48b9",
-    "1657541124732affea"
+    "1657541124732affea",
+    "1657633198b4f27181"
   ]
 }
