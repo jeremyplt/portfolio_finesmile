@@ -70,13 +70,13 @@
             {%- when '@app' -%}
               {% render block %}
             {%- when 'text' -%}
-              <p class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}" {{ block.shopify_attributes }}>
+              <h2 class="product__title h1">
                 {{- block.settings.text -}}
-              </p>
+              </h2>
             {%- when 'title' -%}
               <h2 class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
                 {%- if product.title != blank -%}
-                  {{ product.title | escape }}
+                  {{ product.title }}
                 {%- else -%}
                   {{ 'onboarding.product_title' | t }}
                 {%- endif -%}
@@ -466,7 +466,7 @@
       "name": "t:sections.featured-product.blocks.text.name",
       "settings": [
         {
-          "type": "text",
+          "type": "html",
           "id": "text",
           "default": "Text block",
           "label": "t:sections.featured-product.blocks.text.settings.text.label"
