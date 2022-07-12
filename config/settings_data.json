@@ -126,10 +126,13 @@
           "logo_hover": "shopify:\/\/shop_images\/logo_fine_smile_cf04bdd6-63b9-40c7-9cef-a6d4c55a9a75.png",
           "logo_width": 50,
           "logo_position": "middle-left",
-          "menu": "main-menu",
+          "menu": "header",
+          "menu_type_desktop": "dropdown",
           "show_line_separator": false,
           "enable_sticky_header": false,
-          "margin_bottom": 0
+          "margin_bottom": 0,
+          "padding_top": 20,
+          "padding_bottom": 20
         }
       },
       "footer": {
