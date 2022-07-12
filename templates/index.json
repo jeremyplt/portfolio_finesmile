@@ -299,6 +299,7 @@
         "af2bcae7-2ec3-4521-8a5f-9754c4c2b1e4": {
           "type": "icon",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/flask_2.png",
             "title": "Tested in Laboratory",
             "description": ""
           }
@@ -306,6 +307,7 @@
         "cd3cbedd-8dcc-4b8b-b7be-298eb97e3f1c": {
           "type": "icon",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/delivery.png",
             "title": "Free Delivery",
             "description": ""
           }
