@@ -1,0 +1,54 @@
+{{ 'section-icon-reassurance.css' | asset_url | stylesheet_tag }}
+
+<div class="icon-reassurance-container page-width">
+    {%- for block in section.blocks -%}
+    <div class="icon-item">
+        <img src="{{ block.settings.icon | img_url: '150x'}}" alt="{{ block.settings.icon.alt | escape }}">
+        <div class="icon-title">{{ block.settings.title }}</div>
+        <div class="icon-description">{{ block.settings.description }}</div>
+    </div>
+    {%- endfor -%}
+</div>
+
+{% schema %}
+{
+    "name": "Icon Reassurance",
+    "class": "section page-width",
+    "settings": [
+        {
+            "label": "Title",
+            "id": "title",
+            "type": "text"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "icon",
+            "name": "Icon Reasurrance",
+            "limit": 4,
+            "settings": [
+                {
+                    "label": "Icon",
+                    "id": "icon",
+                    "type": "image_picker"
+                },
+                {
+                    "label": "Title",
+                    "id": "title",
+                    "type": "text"
+                },
+                {
+                    "label": "Description",
+                    "id": "description",
+                    "type": "richtext"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Icon Reassurance"
+        }
+    ]
+}
+{% endschema %}
