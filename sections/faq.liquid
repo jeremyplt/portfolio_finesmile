@@ -1,0 +1,59 @@
+{{ 'section-faq.css' | asset_url | stylesheet_tag }}
+
+<div class="faq-title"><h2>{{ section.settings.faq_title }}</h2></div>
+<div class="faq-title-reduced">FAQ</div>
+<div class="product-info-divider"></div>
+
+
+<div class="questions-container">
+
+{%- for block in section.blocks -%}
+<div class="faq-item">
+  <h3 class="faq-question faq-collapsible" active="false" id="question-{{ block.id }}">
+    <span class="btn-label">{{ block.settings.faq_question }}</span>
+  </h3>
+  <div class="faq-answer">
+    {{ block.settings.faq_answer }}
+  </div>
+</div>
+{%- endfor -%}
+</div>
+
+
+{% schema %}
+{
+  "name": "FAQ",
+  "max_blocks": 16,
+  "class": "section page-width page-width--narrow faq-container",
+  "settings": [
+      {
+          "label": "FAQ Title",
+          "id": "faq_title",
+          "type": "text"
+      }
+  ],
+  "blocks": [
+      {
+          "name": "Question & Answer",
+          "type": "question-answer",
+          "settings": [
+              {
+                  "label": "Question",
+                  "id": "faq_question",
+                  "type": "text"
+              },
+              {
+                  "label": "Answer",
+                  "id": "faq_answer",
+                  "type": "richtext"
+              }
+          ]
+      }
+  ],
+  "presets": [
+      {
+          "name": "FAQ"
+      }
+  ]
+}
+{% endschema %}
