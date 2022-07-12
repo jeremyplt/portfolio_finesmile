@@ -1,117 +1,116 @@
 {
-    "sections": {
-      "main": {
-        "type": "main-page",
-        "settings": {
-          "padding_top": 36,
-          "padding_bottom": 36
-        }
-      },
-      "164646446005fe8842": {
-        "type": "faq",
-        "blocks": {
-          "b6b6eafc-41b6-44e1-8be9-9aaa0b7f1e48": {
-            "type": "question-answer",
-            "settings": {
-              "faq_question": "Are you offering prescription blue light blocking glasses",
-              "faq_answer": "<p>No, we do not offer prescription glasses or corrective lenses at the moment. However, we are working to be able to offer you this service very soon.<\/p>"
-            }
-          },
-          "501ca5f0-3cdb-40e3-ae1b-a717f93578e8": {
-            "type": "question-answer",
-            "settings": {
-              "faq_question": "Can I use your glasses if I wear contact lenses",
-              "faq_answer": "<p>Yes, you can use our blue light blocking glasses while wearing your contact lenses.<\/p>"
-            }
-          },
-          "a78e0455-6653-4691-bfac-1b5d081363e3": {
-            "type": "question-answer",
-            "settings": {
-              "faq_question": "Do you have several sizes of glasses",
-              "faq_answer": "<p>Our glasses only come in one size. This is the standard size used by opticians.<\/p><p>If the pair is too big or too small for you, which is extremely rare, you can send them back to us and get a full refund.<\/p>"
-            }
-          },
-          "1f44997e-be22-4520-a3dc-d60363a9fb74": {
-            "type": "question-answer",
-            "settings": {
-              "faq_question": "What is the filtering rate of your glasses",
-              "faq_answer": "<p>GMG Performer glasses block 60% of blue light. <\/p><p>GMG Optimizer and GMG Oranos Black glasses block 30% of blue light.<\/p><p>GMG Oranos Light Grey, Tortoise and GMG Osiris glasses block 25% of blue light.<\/p>"
-            }
-          },
-          "7f1b9246-200d-4b38-b5fe-b8f3769a1e17": {
-            "type": "question-answer",
-            "settings": {
-              "faq_question": "Are the glasses lenses transparent",
-              "faq_answer": "<p>GMG Optimizer, GMG Oranos and GMG Osiris lenses have a very slight tint for an optimal blue light protection with minimal color distortion. <\/p><p><br\/><\/p><p>GMG Performer lenses have a strong yellow tint to ensure an even higher blue light protection.<\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "b6b6eafc-41b6-44e1-8be9-9aaa0b7f1e48",
-          "501ca5f0-3cdb-40e3-ae1b-a717f93578e8",
-          "a78e0455-6653-4691-bfac-1b5d081363e3",
-          "1f44997e-be22-4520-a3dc-d60363a9fb74",
-          "7f1b9246-200d-4b38-b5fe-b8f3769a1e17"
-        ],
-        "settings": {
-          "faq_title": "Blue Light Glasses"
-        }
-      },
-      "1646464464cf0f16cb": {
-        "type": "faq",
-        "blocks": {
-          "50038bc7-1c78-4f6d-b347-6770ddce087a": {
-            "type": "question-answer",
-            "settings": {
-              "faq_question": "I live in the United States, when will I receive my order?",
-              "faq_answer": "<p>Domestic orders are delivered within 2-5 working days. Your tracking number is sent by email. <\/p>"
-            }
-          },
-          "2711f127-8e67-4b41-93d2-0c534a86e02a": {
-            "type": "question-answer",
-            "settings": {
-              "faq_question": "I live outside the United States, when will I receive my order?",
-              "faq_answer": "<p>International orders are dispatched within 2 to 3 business days of placing your order. Your order will then be delivered within 8 to 10 days.<\/p>"
-            }
-          },
-          "ed086bee-8546-4d9e-8907-bac61be5f8df": {
-            "type": "question-answer",
-            "settings": {
-              "faq_question": "Are you shipping internationally",
-              "faq_answer": "<p>Yes. During checkout, the delivery method will automatically be updated according to your country. <\/p>"
-            }
-          },
-          "565bdf17-c371-437e-b269-a3c1a110cc5f": {
-            "type": "question-answer",
-            "settings": {
-              "faq_question": "Do you have a return guarantee?",
-              "faq_answer": "<p>We offer a 30 days return policy upon receipt of your order. <\/p><p>You can return the glasses to our premises and we will refund you the full amount of your order.<\/p><p>We also offer a lifetime guarantee that covers any problems.<\/p>"
-            }
-          },
-          "6f9733b5-feb4-4e3e-98fc-12646c95c2e1": {
-            "type": "question-answer",
-            "settings": {
-              "faq_question": "What is the lifetime guarantee",
-              "faq_answer": "<p>When added to your order, the lifetime guarantee covers the breakage of the pairs in your order. It entitles you to receive a replacement pair free of charge.<\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "50038bc7-1c78-4f6d-b347-6770ddce087a",
-          "2711f127-8e67-4b41-93d2-0c534a86e02a",
-          "ed086bee-8546-4d9e-8907-bac61be5f8df",
-          "565bdf17-c371-437e-b269-a3c1a110cc5f",
-          "6f9733b5-feb4-4e3e-98fc-12646c95c2e1"
-        ],
-        "settings": {
-          "faq_title": "Delivery, Return & Guarantee"
-        }
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "order": [
-      "main",
-      "164646446005fe8842",
-      "1646464464cf0f16cb"
-    ]
-  }
-  
+    "164646446005fe8842": {
+      "type": "faq",
+      "blocks": {
+        "b6b6eafc-41b6-44e1-8be9-9aaa0b7f1e48": {
+          "type": "question-answer",
+          "settings": {
+            "faq_question": "How many days does the delivery take?",
+            "faq_answer": "<p>Domestic orders are delivered within 2-5 working days. Your tracking number is sent by email. <\/p>"
+          }
+        },
+        "501ca5f0-3cdb-40e3-ae1b-a717f93578e8": {
+          "type": "question-answer",
+          "settings": {
+            "faq_question": "How many days does the delivery take?",
+            "faq_answer": "<p>Domestic orders are delivered within 2-5 working days. Your tracking number is sent by email. <\/p>"
+          }
+        },
+        "a78e0455-6653-4691-bfac-1b5d081363e3": {
+          "type": "question-answer",
+          "settings": {
+            "faq_question": "How many days does the delivery take?",
+            "faq_answer": "<p>Domestic orders are delivered within 2-5 working days. Your tracking number is sent by email. <\/p>"
+          }
+        },
+        "1f44997e-be22-4520-a3dc-d60363a9fb74": {
+          "type": "question-answer",
+          "settings": {
+            "faq_question": "How many days does the delivery take?",
+            "faq_answer": "<p>Domestic orders are delivered within 2-5 working days. Your tracking number is sent by email. <\/p>"
+          }
+        },
+        "7f1b9246-200d-4b38-b5fe-b8f3769a1e17": {
+          "type": "question-answer",
+          "settings": {
+            "faq_question": "How many days does the delivery take?",
+            "faq_answer": "<p>Domestic orders are delivered within 2-5 working days. Your tracking number is sent by email. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b6b6eafc-41b6-44e1-8be9-9aaa0b7f1e48",
+        "501ca5f0-3cdb-40e3-ae1b-a717f93578e8",
+        "a78e0455-6653-4691-bfac-1b5d081363e3",
+        "1f44997e-be22-4520-a3dc-d60363a9fb74",
+        "7f1b9246-200d-4b38-b5fe-b8f3769a1e17"
+      ],
+      "settings": {
+        "faq_title": "Delivery, Return & Guarantee"
+      }
+    },
+    "1646464464cf0f16cb": {
+      "type": "faq",
+      "blocks": {
+        "50038bc7-1c78-4f6d-b347-6770ddce087a": {
+          "type": "question-answer",
+          "settings": {
+            "faq_question": "Here you can put any other question",
+            "faq_answer": "<p>And here an answer!<\/p>"
+          }
+        },
+        "2711f127-8e67-4b41-93d2-0c534a86e02a": {
+          "type": "question-answer",
+          "settings": {
+            "faq_question": "Here you can put any other question",
+            "faq_answer": "<p>And here an answer!<\/p>"
+          }
+        },
+        "ed086bee-8546-4d9e-8907-bac61be5f8df": {
+          "type": "question-answer",
+          "settings": {
+            "faq_question": "Here you can put any other question",
+            "faq_answer": "<p>And here an answer!<\/p>"
+          }
+        },
+        "565bdf17-c371-437e-b269-a3c1a110cc5f": {
+          "type": "question-answer",
+          "settings": {
+            "faq_question": "Here you can put any other question",
+            "faq_answer": "<p>And here an answer!<\/p>"
+          }
+        },
+        "6f9733b5-feb4-4e3e-98fc-12646c95c2e1": {
+          "type": "question-answer",
+          "settings": {
+            "faq_question": "Here you can put any other question",
+            "faq_answer": "<p>And here an answer!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "50038bc7-1c78-4f6d-b347-6770ddce087a",
+        "2711f127-8e67-4b41-93d2-0c534a86e02a",
+        "ed086bee-8546-4d9e-8907-bac61be5f8df",
+        "565bdf17-c371-437e-b269-a3c1a110cc5f",
+        "6f9733b5-feb4-4e3e-98fc-12646c95c2e1"
+      ],
+      "settings": {
+        "faq_title": "Other Questions"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164646446005fe8842",
+    "1646464464cf0f16cb"
+  ]
+}
