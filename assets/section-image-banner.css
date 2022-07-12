@@ -15,6 +15,10 @@
   font-weight: bold;
 }
 
+.mobile_banner {
+  display: none;
+}
+
 @media screen and (max-width: 749px) {
   .big-banner-title, .banner__text {
     font-size: 52px;
@@ -482,6 +486,39 @@
   .banner--content-align-right .banner__buttons--multiple {
     justify-content: flex-end;
   }
+}
+
+@media screen and (max-width: 749px) {
+  .banner:not(.banner--stacked) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .banner--stacked {
+    height: auto;
+  }
+
+  .banner--stacked .banner__media {
+    flex-direction: column;
+  }
+
+  .desktop_banner {
+    display: none;
+  }
+
+  .mobile_banner {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .mobile_banner {
+    max-width: 100%;
+  }
+
+
 }
 
 .banner__box > * + .banner__buttons {
