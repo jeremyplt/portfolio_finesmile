@@ -36,6 +36,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/home_banner_without_text-V2.png",
+        "image_mobile": "shopify:\/\/shop_images\/home_banner_mobile.png",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
