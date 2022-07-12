@@ -89,3 +89,16 @@
 .description-text{
   margin: 10px 0 15px 0;
 }
+
+.product__info-container variant-radios {
+  margin-top: 0 !important;
+}
+
+.product__info-container #price-template--16233731850473__1657528582e845aefa {
+margin-bottom: 0;
+}
+
+.product__info-container .product-form__input {
+ display: flex;
+ flex-direction: column;
+}
