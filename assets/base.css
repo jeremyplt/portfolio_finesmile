@@ -2432,8 +2432,8 @@ input[type='checkbox'] {
   color: white;
 }
 
-.header__menu-item span:hover {
-  color: rgb(79,1,163);
+.header__menu-item:hover span {
+  color: rgb(79,1,163) !important;
 }
 
 .header:hover .cart-count-bubble, .sticky .cart-count-bubble {

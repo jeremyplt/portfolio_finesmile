@@ -2,13 +2,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
-    padding: 20px 0;
-    margin-bottom: 20px;
+    padding-top: 20px;
     text-align: center;
 }
 
 .icon-item {
-    padding: 10px 0;
+    padding-top: 10px;
 }
 
 .icon-item img {
@@ -16,10 +15,9 @@
 }
 
 .icon-title {
-    color: var(--color-text-primary);
-    font-size: 20px;
-    font-family: var(--font-secondary);
-    text-transform: uppercase;
+    color: black;
+    letter-spacing: 0px;
+    font-size: 24px;
     margin-top: 10px;
     line-height: 2.4rem;
     font-weight: bold;
@@ -32,6 +30,10 @@
 
 .icon-description p {
     margin-top: 10px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #636366;
 }
 
 @media screen and (min-width: 749px) and (max-width: 899px) {
@@ -45,8 +47,7 @@
     .icon-reassurance-container {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
-        padding: 10px 10px;
-        margin-bottom: 20px;
+        padding: 10px 10px 0 10px;
     }
 }
 

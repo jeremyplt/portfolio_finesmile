@@ -1,6 +1,6 @@
 {{ 'section-icon-reassurance.css' | asset_url | stylesheet_tag }}
 
-<div class="icon-reassurance-container page-width">
+<div class="icon-reassurance-container">
     {%- for block in section.blocks -%}
     <div class="icon-item">
         <img src="{{ block.settings.icon | img_url: '150x'}}" alt="{{ block.settings.icon.alt | escape }}">
