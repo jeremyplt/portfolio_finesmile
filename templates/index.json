@@ -301,7 +301,7 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/flask_2.png",
             "title": "Tested in Laboratory",
-            "description": ""
+            "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus<\/p>"
           }
         },
         "cd3cbedd-8dcc-4b8b-b7be-298eb97e3f1c": {
@@ -309,22 +309,23 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/delivery.png",
             "title": "Free Delivery",
-            "description": ""
+            "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus<\/p>"
           }
         },
         "7784ce29-8326-4d82-b3ae-3df1f46e2d6c": {
           "type": "icon",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/guarantee-certificate.png",
             "title": "Guarantee",
-            "description": ""
+            "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus<\/p>"
           }
         },
         "c248b9d5-1018-4bed-914d-96a54bfe5e60": {
           "type": "icon",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/flask_1.png",
+            "icon": "shopify:\/\/shop_images\/loupe.png",
             "title": "Best Quality",
-            "description": ""
+            "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus<\/p>"
           }
         }
       },
