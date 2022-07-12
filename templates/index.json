@@ -140,12 +140,13 @@
         "e555cc49-1184-4d1c-bc7a-be5f8f27890c": {
           "type": "text",
           "settings": {
-            "text": "finesmile Color Corrector",
+            "text": "<span style=\"color:#4f00a4;\">fine<\/span>smile Color Corrector",
             "text_style": "subtitle"
           }
         },
         "1657528582039680d7-1": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_size": "h1"
           }
