@@ -15,6 +15,34 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 749px) {
+  .big-banner-title, .banner__text {
+    font-size: 52px;
+    line-height: 3.5rem;
+  }
+
+  .banner__box {
+    margin-top: 20px;
+    padding-left: 2rem;
+    text-align: left !important;
+  }
+
+  .banner__box .medium-banner-title {
+    font-size: 1.6rem;
+    color: rgba(var(--color-foreground), 0.75);
+    margin: 2rem 0;
+  }
+
+  .banner__box .banner__buttons .custom-primary-btn {
+    color: white;
+    background-color: black;
+  }
+
+  .banner__box > * + .banner__buttons {
+    margin-top: 1rem !important;
+  }
+}
+
 .banner__text {
   color: #ffe153;
 }

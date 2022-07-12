@@ -1125,3 +1125,27 @@ window.addEventListener("scroll", function () {
     header.classList.remove("sticky");
   }
 });
+
+// FAQ COLLAPSIBLE //
+
+const faqQuestions = document.querySelectorAll(".faq-collapsible");
+
+faqQuestions.forEach(question => {
+  question.addEventListener('click', function() {
+    const faqStyle = document.querySelector(`#faq-style-${this.id}`)
+    const customFaqStyle = `<style id="faq-style-${this.id}">
+      #${this.id} + .faq-answer {
+        height:${this.nextElementSibling.scrollHeight}px;
+      }
+    </style>`
+    if (this.getAttribute('active') === 'true'){
+      this.setAttribute('active', 'false');
+      if (faqStyle)
+        faqStyle.remove()
+    } else {
+      if (!faqStyle)
+        document.head.insertAdjacentHTML('afterbegin', customFaqStyle);
+      this.setAttribute('active', 'true');
+    }
+  });
+});

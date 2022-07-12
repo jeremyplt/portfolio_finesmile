@@ -1385,7 +1385,6 @@ deferred-media {
 
 .btn-label {
   padding-top: 3px;
-
 }
 
 .shopify-challenge__container .shopify-challenge__button {
@@ -2495,7 +2494,7 @@ input[type='checkbox'] {
   }
 
   .header {
-    background-color: var(--color-primary);
+    background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -2630,7 +2629,11 @@ input[type='checkbox'] {
   color:black;
 }
 
-
+@media screen and (max-width: 749px) {
+  .header .icon-cart {
+    color:black;
+  }
+}
 
 .header__icon .icon {
   height: 2rem;

@@ -396,6 +396,34 @@ this.hidePanel();
 customElements.define('localization-form', LocalizationForm);
 {% endjavascript %}
 
+<script>
+  const footerHeadings = document.querySelectorAll(".collapsible");
+
+  footerHeadings.forEach(heading => {
+    heading.addEventListener('click', function() {
+      const width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+      if (width <= 749){
+        const style = document.querySelector(`#style-${this.id}`)
+        const customStyle = `<style id="style-${this.id}">
+          @media screen and (max-width: 749px){
+          #${this.id} + .footer-content {
+            height:${this.nextElementSibling.scrollHeight}px !important;
+          }}
+        </style>`
+        if (this.getAttribute('active') === 'true'){
+          this.setAttribute('active', 'false');
+          if (style)
+            style.remove()
+        } else {
+          if (!style)
+            document.head.insertAdjacentHTML('afterbegin', customStyle);
+          this.setAttribute('active', 'true');
+        }
+      }
+    });
+  });
+</script>
+
 {% schema %}
 {
 "name": "t:sections.footer.name",
