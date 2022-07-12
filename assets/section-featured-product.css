@@ -75,6 +75,10 @@
   .product__info-wrapper {
     padding: 0px 15px;
   }
+
+  .product__modal-opener .product__media {
+    padding-top: 0 !important;
+  }
 }
 
 
