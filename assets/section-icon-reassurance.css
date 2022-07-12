@@ -1,0 +1,66 @@
+.icon-reassurance-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.icon-item {
+    padding: 10px 0;
+}
+
+.icon-item img {
+    max-width: 65px;
+}
+
+.icon-title {
+    color: var(--color-text-primary);
+    font-size: 20px;
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    margin-top: 10px;
+    line-height: 2.4rem;
+    font-weight: bold;
+}
+
+.icon-description {
+    font-family: var(--font-body);
+    line-height: 2.2rem;
+}
+
+.icon-description p {
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 749px) and (max-width: 899px) {
+    .icon-reassurance-container {
+        gap: 10px;
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .icon-reassurance-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .icon-reassurance-container {
+        grid-template-columns: 1fr;
+        padding: 10px 30px;
+    }
+
+    .icon-title {
+        font-size: 2rem;
+    }
+
+    .icon-description {
+        font-size: 1.6rem;
+    }
+}

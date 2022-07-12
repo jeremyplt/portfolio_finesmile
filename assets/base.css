@@ -2424,8 +2424,16 @@ input[type='checkbox'] {
   background-color: white;
 }
 
-.header:hover .header__menu-item, .header:hover .header__icon, .sticky .header__menu-item, .sticky  .header__icon {
+.header:hover .header__menu-item span, .header:hover .header__icon, .sticky .header__menu-item span, .sticky  .header__icon {
   color: black;
+}
+
+.header__menu-item span {
+  color: white;
+}
+
+.header__menu-item span:hover {
+  color: rgb(79,1,163);
 }
 
 .header:hover .cart-count-bubble, .sticky .cart-count-bubble {
