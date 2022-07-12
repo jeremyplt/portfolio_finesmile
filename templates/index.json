@@ -137,6 +137,13 @@
     "1657528582e845aefa": {
       "type": "featured-product",
       "blocks": {
+        "e555cc49-1184-4d1c-bc7a-be5f8f27890c": {
+          "type": "text",
+          "settings": {
+            "text": "finesmile Color Corrector",
+            "text_style": "subtitle"
+          }
+        },
         "1657528582039680d7-1": {
           "type": "title",
           "settings": {
@@ -168,6 +175,7 @@
         }
       },
       "block_order": [
+        "e555cc49-1184-4d1c-bc7a-be5f8f27890c",
         "1657528582039680d7-1",
         "1657528582039680d7-3",
         "1657528582039680d7-4",
