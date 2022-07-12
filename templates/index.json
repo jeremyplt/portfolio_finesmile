@@ -36,14 +36,14 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/home_banner_without_text-V2.png",
-        "image_mobile": "shopify:\/\/shop_images\/home_banner_mobile.png",
+        "image_mobile": "shopify:\/\/shop_images\/product_hand-Recupere.png",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "show_text_below": false
       }
     },
