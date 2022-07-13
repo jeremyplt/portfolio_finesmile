@@ -3738,6 +3738,7 @@ body.blocked-scroll {
     font-weight: 400;
     font-size: 1.2rem;
     color: #636366;
+    letter-spacing: 0;
 }
 
 .jdgm-carousel-item__reviewer-name {
