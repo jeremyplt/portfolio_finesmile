@@ -3718,3 +3718,7 @@ body.blocked-scroll {
 .blue-btn {
   background-color: #007aff;
 }
+
+.page-width .jdgm-carousel-wrapper {
+  width: 100%;
+}
