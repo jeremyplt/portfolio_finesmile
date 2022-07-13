@@ -3744,3 +3744,13 @@ body.blocked-scroll {
 .jdgm-carousel-item__reviewer-name {
   color: black
 }
+
+@media screen and (max-width: 749px) {
+  .page-width .jdgm-carousel-wrapper {
+    padding: 0 0 48px 0;
+  }
+  .page-width .jdgm-carousel-title-and-link {
+    width: 100%;
+    margin: auto;
+  }
+}
