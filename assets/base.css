@@ -3722,3 +3722,24 @@ body.blocked-scroll {
 .page-width .jdgm-carousel-wrapper {
   width: 100%;
 }
+
+@media screen and (min-width: 750px) {
+  .page-width .jdgm-carousel-title {
+    font-size: 50px;
+  }
+}
+
+.page-width .jdgm-carousel-title, .jdgm-carousel-item__reviewer-name {
+  letter-spacing: 0;
+}
+
+.jdgm-carousel-number-of-reviews, .jdgm-carousel-item__review-body p {
+  line-height: 1.5;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #636366;
+}
+
+.jdgm-carousel-item__reviewer-name {
+  color: black
+}
