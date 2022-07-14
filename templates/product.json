@@ -275,14 +275,34 @@
     "16577973099f330cd4": {
       "type": "featured-product",
       "blocks": {
+        "5e8ef916-8289-4b02-b38c-887f32ddefa9": {
+          "type": "text",
+          "settings": {
+            "text": "<span style=\"color:#4f00a4;\">fine<\/span>smile Color Corrector",
+            "text_style": "body"
+          }
+        },
+        "e983bf7c-3b75-4da1-8f04-7a1d3a4e3833": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "800bbe23-bcfd-49ab-b611-cfb733e360c3": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "16577973091ed3bfe3-6": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         }
       },
       "block_order": [
+        "5e8ef916-8289-4b02-b38c-887f32ddefa9",
+        "e983bf7c-3b75-4da1-8f04-7a1d3a4e3833",
+        "800bbe23-bcfd-49ab-b611-cfb733e360c3",
         "16577973091ed3bfe3-6"
       ],
       "settings": {
