@@ -375,6 +375,8 @@
         "16577975222a42d636-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Product_paint.png",
+        "image_mobile": "shopify:\/\/shop_images\/banner_square.png",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
