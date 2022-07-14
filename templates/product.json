@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "",
+            "button_link_1": "#featured-product",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -68,7 +68,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
-            "button_link": ""
+            "button_link": "#featured-product"
           }
         }
       },
@@ -112,7 +112,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
-            "button_link": ""
+            "button_link": "#featured-product"
           }
         }
       },
@@ -336,7 +336,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
-            "button_link": ""
+            "button_link": "#featured-product"
           }
         }
       },
@@ -404,7 +404,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "",
+            "button_link_1": "#featured-product",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
