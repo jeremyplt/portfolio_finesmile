@@ -91,6 +91,50 @@
         "padding_bottom": 0
       }
     },
+    "1657796988a41e2b5d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1657796988f3320184-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<span style=\"color:#4f00a4;\">fine<\/span>smile research.",
+            "heading_size": "h1"
+          }
+        },
+        "1657796988f3320184-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our research, formulation, and product testing is conducted in-house at our Australian headquarters, through our very own Hismile Research Centre.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1657796988f3320184-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657796988f3320184-0",
+        "1657796988f3320184-1",
+        "1657796988f3320184-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ezgif.com-gif-maker.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-product",
       "disabled": true,
@@ -232,6 +276,7 @@
   "order": [
     "1657796669ac0c3819",
     "16577968668401d1ec",
+    "1657796988a41e2b5d",
     "main",
     "product-recommendations"
   ]
