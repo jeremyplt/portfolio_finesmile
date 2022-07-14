@@ -386,6 +386,52 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "16577976928d5ee211": {
+      "type": "icon-reassurance",
+      "blocks": {
+        "358f36e4-35b6-46fe-a40d-6d2ec72c5a6e": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/flask_2.png",
+            "title": "Tested in Laboratory",
+            "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus<\/p>"
+          }
+        },
+        "a0d751a4-be86-4115-b1f3-69d8a2b7ec49": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/delivery.png",
+            "title": "Free Delivery",
+            "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus<\/p>"
+          }
+        },
+        "1f3f4839-7d76-4cb2-a794-5e6acffc5033": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/guarantee-certificate.png",
+            "title": "Guarantee",
+            "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus<\/p>"
+          }
+        },
+        "d2d556ba-5d4f-45aa-877f-24cf4d5bb8c2": {
+          "type": "icon",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/loupe.png",
+            "title": "Best Quality",
+            "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "358f36e4-35b6-46fe-a40d-6d2ec72c5a6e",
+        "a0d751a4-be86-4115-b1f3-69d8a2b7ec49",
+        "1f3f4839-7d76-4cb2-a794-5e6acffc5033",
+        "d2d556ba-5d4f-45aa-877f-24cf4d5bb8c2"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
@@ -396,6 +442,7 @@
     "product-recommendations",
     "16577973099f330cd4",
     "1657797420112ce20f",
-    "165779752268da158e"
+    "165779752268da158e",
+    "16577976928d5ee211"
   ]
 }
