@@ -311,8 +311,52 @@
         "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1657798022918a1035": {
+      "type": "image-with-text",
+      "blocks": {
+        "1657798022d3dba56a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Give your smile some shine!<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1657798022d3dba56a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stop being shy when smiling. Thank to finesmile, you can be confident again!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1657798022d3dba56a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657798022d3dba56a-0",
+        "1657798022d3dba56a-1",
+        "1657798022d3dba56a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/118647019_gettyimages-475063916.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1657797420112ce20f": {
@@ -441,6 +485,7 @@
     "main",
     "product-recommendations",
     "16577973099f330cd4",
+    "1657798022918a1035",
     "1657797420112ce20f",
     "165779752268da158e",
     "16577976928d5ee211"
