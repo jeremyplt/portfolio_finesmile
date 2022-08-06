@@ -123,10 +123,10 @@
         "settings": {
           "color_scheme": "background-1",
           "logo_no_hover": "shopify:\/\/shop_images\/logo_fine_smile_white.png",
-          "logo_hover": "shopify:\/\/shop_images\/logo_fine_smile_cf04bdd6-63b9-40c7-9cef-a6d4c55a9a75.png",
+          "logo_hover": "shopify:\/\/shop_images\/logo_fine_smile.png",
           "logo_width": 50,
           "logo_position": "middle-left",
-          "menu": "header",
+          "menu": "",
           "menu_type_desktop": "dropdown",
           "show_line_separator": false,
           "enable_sticky_header": false,
@@ -142,20 +142,19 @@
             "type": "link_list",
             "settings": {
               "heading": "Legal",
-              "menu": "legal"
+              "menu": ""
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
               "heading": "Get Help",
-              "menu": "get-help"
+              "menu": ""
             }
           },
           "27ed1cb2-d70b-4931-a10e-b28ce55a2cee": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/logo_fine_smile_cf04bdd6-63b9-40c7-9cef-a6d4c55a9a75.png",
               "image_width": 200,
               "alignment": "center"
             }
@@ -195,15 +194,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Default": {
