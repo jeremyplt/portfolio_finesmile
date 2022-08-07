@@ -7,7 +7,7 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" id="aos-script">
 
 
     {%- if settings.favicon != blank -%}
@@ -237,6 +237,14 @@
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
       <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
     </ul>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const width = window.innerWidth;
+        if (width < 749)
+          document.querySelector("#aos-script").remove()
+      })
+    </script>
 
     <script>
       window.shopUrl = '{{ request.origin }}';

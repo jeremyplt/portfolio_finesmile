@@ -19,6 +19,12 @@ html, body {
   max-width: 100%;
 }
 
+@media screen and (max-width: 749px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
 html{scroll-behavior:smooth}
 
 #MainContent {

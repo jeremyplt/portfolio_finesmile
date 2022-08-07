@@ -141,6 +141,10 @@
     border-bottom-left-radius: 0;
   }
 
+  .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > * {
+    padding-bottom: 0px !important;
+  }
+
   .image-with-text.collapse-corners:not(.image-with-text--overlap) .image-with-text__text-item:after,
   .image-with-text.collapse-corners:not(.image-with-text--overlap) .grid__item .image-with-text__content {
     border-top-left-radius: 0;

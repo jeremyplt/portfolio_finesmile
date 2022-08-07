@@ -1,7 +1,7 @@
 {{ 'section-about-me.css' | asset_url | stylesheet_tag }}
 
 <div class="about-me-wrapper" id="about-me">
-    <div class="am-text">
+    <div class="am-text" data-aos="fade-right">
         <span class="am-title big-banner-title">About me</span><span id="cursor"></span>
         <div class="am-description">
             <p>Hey! I'm Jeremy, a Shopify Developer and E-commerce Expert.</p>
@@ -14,7 +14,7 @@
 
         </div>
     </div>
-    <div class="am-photo">
+    <div class="am-photo" data-aos="fade-left">
         <img src="{{ 'profil.jpg' | asset_url }}" alt="profil picture">
     </div>
 </div>
