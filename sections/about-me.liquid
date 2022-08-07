@@ -1,0 +1,17 @@
+{{ 'section-about-me.css' | asset_url | stylesheet_tag }}
+
+<div class="about-me-wrapper">
+    <div class="am-text">
+        <div class="am-title"></div>
+        <div class="am-description"></div>
+    </div>
+    <div class="am-photo">
+        <img src="{{ 'profil.png' | asset_url }}" alt="profil picture">
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "About me"
+}
+{% endschema %}
