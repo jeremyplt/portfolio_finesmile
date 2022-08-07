@@ -237,12 +237,6 @@
         "padding_bottom": 0
       }
     },
-    "16577011752c091fe7": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "1657541124732affea": {
       "type": "image-banner",
       "blocks": {
@@ -346,7 +340,6 @@
     "1657528311ee447639",
     "1657528582e845aefa",
     "1657570144c75b48b9",
-    "16577011752c091fe7",
     "1657541124732affea",
     "1657633198b4f27181"
   ]
