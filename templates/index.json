@@ -86,8 +86,8 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1657528311ee447639": {
@@ -297,6 +297,7 @@
         "af2bcae7-2ec3-4521-8a5f-9754c4c2b1e4": {
           "type": "icon",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/chemistry.png",
             "title": "Tested in Laboratory",
             "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus<\/p>"
           }
@@ -311,6 +312,7 @@
         "7784ce29-8326-4d82-b3ae-3df1f46e2d6c": {
           "type": "icon",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/guarantee_1.png",
             "title": "Guarantee",
             "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus<\/p>"
           }
