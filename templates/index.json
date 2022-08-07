@@ -305,6 +305,7 @@
         "cd3cbedd-8dcc-4b8b-b7be-298eb97e3f1c": {
           "type": "icon",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/free-shipping.png",
             "title": "Free Delivery",
             "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus<\/p>"
           }
