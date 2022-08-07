@@ -103,9 +103,8 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
+              "text": "This website is not used for commercial purpose.",
               "text_alignment": "center",
               "color_scheme": "background-1",
               "link": ""
