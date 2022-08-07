@@ -77,6 +77,7 @@
         "1657528207166ee410-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/black_teeth.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -222,6 +223,7 @@
         "16575701449974bd96-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/istockphoto-1037081016-612x612.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -283,6 +285,7 @@
         "165754112480de6ab8-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Product_paint.png",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-right",
         "show_text_box": false,
