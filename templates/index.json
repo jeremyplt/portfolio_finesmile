@@ -121,6 +121,7 @@
         "1657528311bd17f29d-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/1gif.gif",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
