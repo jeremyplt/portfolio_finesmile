@@ -321,6 +321,7 @@
         "c248b9d5-1018-4bed-914d-96a54bfe5e60": {
           "type": "icon",
           "settings": {
+            "icon": "shopify:\/\/shop_images\/badge.png",
             "title": "Best Quality",
             "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus<\/p>"
           }
