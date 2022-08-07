@@ -6,7 +6,11 @@
   border-top: none;
 }
 
-.footer__content-top {
+.footer .page-width {
+  padding: 0 3rem;
+}
+
+.footer .footer__content-top {
   padding-bottom: 5rem;
   display: block;
 }

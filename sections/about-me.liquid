@@ -1,12 +1,20 @@
 {{ 'section-about-me.css' | asset_url | stylesheet_tag }}
 
-<div class="about-me-wrapper">
+<div class="about-me-wrapper" id="#about-me">
     <div class="am-text">
-        <div class="am-title"></div>
-        <div class="am-description"></div>
+        <span class="am-title big-banner-title">About me</span><span id="cursor"></span>
+        <div class="am-description">
+            <p>Hey! I'm Jeremy, a Shopify Developer and E-commerce Expert.</p>
+            <p>I created this website for a client in <b style="color: #acdeff">less than 10 hours!</b><br>
+            Everything has been coded from sratch using the theme Dawn as a base.
+            </p>
+            <p>If you are interested in working with me, you can contact me through my <a href="https://www.upwork.com/freelancers/~0164fbb033c81211db">Upwork Profile</a>.</p>
+            <p>Looking forward to speak with you about your project. Cheers! :)</p>
+
+        </div>
     </div>
     <div class="am-photo">
-        <img src="{{ 'profil.png' | asset_url }}" alt="profil picture">
+        <img src="{{ 'profil.jpg' | asset_url }}" alt="profil picture">
     </div>
 </div>
 
